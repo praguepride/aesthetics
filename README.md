@@ -9,6 +9,8 @@ This Python utility is designed to **prepare and evaluate image datasets** for t
 
 This pipeline helps benchmark model robustness across image quality degradation and compression artifacts.
 
+> **Note:** The majority of the scoring code is adapted from the [Improved Aesthetic Predictor](https://github.com/christophschuhmann/improved-aesthetic-predictor) project by Christoph Schuhmann.
+
 ---
 
 ## Example Use Case
@@ -120,4 +122,4 @@ For each subfolder, a CSV will be generated containing:
 
 ## License
 
-Apache 2.0 License. See `LICENSE` file for details.
+Apache License 2.0. See `LICENSE` file for details.

@@ -23,21 +23,23 @@ By placing each image source in its own folder, this tool will resize and compre
 
 ## Sample Folder Structure
 
+```
 project_root/
-│
 ├── image_sources/
-│ ├── stable_diffusion_3.5/
-│ ├── flux_1_schnell/
-│ ├── dalle_3/
-│ └── real_images/
+│   ├── stable_diffusion_3.5/
+│   ├── flux_1_schnell/
+│   ├── dalle_3/
+│   └── real_images/
 │
 ├── processed_images/
-│ ├── jpg_306_95q/
-│ │ ├── stable_diffusion_3.5/
-│ │ ├── flux_1_schnell/
-│ │ └── ...
-│ ├── jpg_306_85q/
-│ └── ...
+│   ├── jpg_306_95q/
+│   │   ├── stable_diffusion_3.5/
+│   │   ├── flux_1_schnell/
+│   │   └── ...
+│   ├── jpg_306_85q/
+│   └── ...
 │
 ├── resize_script.py
 └── README.md
+```
+
